@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar {
+    background-color: rgb(16, 48, 95);
+    width: 160px;
+    height: 100vh;
+    margin-right: 2px;
+}
+
+
+
+.main {
+    background-color: rgba(3,0,43,255);
+    width: 90vw;
+    color: aliceblue;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    padding-left: 30px;
+    padding-top: 240px;
+}
+
+.sidebar nav ul li a{
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:bold;
+    font-size: large;
+    font-style: normal;
+    
+
+   color: white;
+   text-decoration: none;
+  
+
+    
+}
+
+.main p {
+    font-size: 30px;
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 5px;
+    font-style: normal;
+}
+
+.main h1 {
+    color: #c83add;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar nav {
+    padding: 20px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    color: white;
+    padding-top: 50px;
+}
+.info{
+    display: flex;
+}
+.main img{
+    position:absolute;
+    top:15vh;
+    left:66vw;
+    height: 65vh;
+    filter: drop-shadow(0px 0px 20px rgba(100, 100, 255, 0.4));
+}
+.main{
+    background-image: url("geometric-gradient-futuristic-background_23-2149116406.jpg");
+}
+.text h1{
+    filter: drop-shadow(0px 0px 20px rgba(196, 100, 255, 0.4));
+}
+.button{
+    
+    background-color: rgb(23, 57, 168);
+    padding: 15px;
+    border-radius: 7px;
+    border-width:drop-shadow(0px 0px 20px rgba(100, 100, 255, 0.4));
+    cursor:pointer;
+    color:white;
+    border-color: aqua;
+    border-width: 2px;
+    opacity: .89;
+    margin-left: 25px;
+
+
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:bold;
+    font-size: large;
+    font-style: normal;
+}
+.button:hover{
+    opacity: 1;
+    transition: 0.15s;
+    filter: drop-shadow(0px 10px 20px rgba(32, 5, 239, 0.663));
+
+}
+.home svg{
+    color: white;
+}
+
+/* sidebar toggle */
+/* #sidebarToggle {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+}
+
+.hidden {
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    position: absolute;
+} */
+
+/* Contact styling */
+
+.contactform{
+    font-family: "Gravitas One", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 30px;
+   padding-left: 34px;
+   padding-top: 0px;
+   justify-content: space-around;
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   top:60px;
+   justify-content: space-around;
+}
+.contactform h1{
+    font-family: "Lobster", sans-serif;
+    font-weight: 40px;
+    font-size: larger;
+    font-style: normal;
+    text-align: center;
+    display: flex;
+    position: relative;
+    align-self: center;
+    left:235px;
+}
+.contactform div{
+    padding: 24px 0;
+}
+.form-text{
+    font-size: small;
+}
+#clientname{
+    padding: 2px;
+    border-radius: 17px;
+    width: 16vw;
+    height: 20px;
+    margin-left: 20px;
+}
+#clientemail{
+    padding: 2px;
+    border-radius: 17px;
+    width: 16vw;
+    height: 20px;
+    margin-left: 20px;
+}
+#clientmessage{
+    padding: 2px;
+    border-radius: 17px;
+    width: 26vw;
+    height: 70px;
+    margin-left: 20px;
+}
+#clientphone{
+    padding: 2px;
+    border-radius: 17px;
+    width: 16vw;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.btn{
+    background-color: rgb(23, 57, 168);
+    padding: 15px;
+    border-radius: 7px;
+    border-width:drop-shadow(0px 0px 20px rgba(100, 100, 255, 0.4));
+    cursor:pointer;
+    color:white;
+    border-color: aqua;
+    border-width: 2px;
+    opacity: .89;
+    margin-left: 25px;
+
+
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:bold;
+    font-size: large;
+    font-style: normal;
+    position: relative;
+    top:0px;
+    left:100px;
+}
+.btn:hover{
+    opacity: 1;
+    transition: 0.15s;
+    filter: drop-shadow(0px 10px 20px rgba(32, 5, 239, 0.663));
+}
+.btn:active{
+    background-color: red;
+}
+.mb-3 .form-check{
+    padding: 2px;
+    border-radius: 17px;
+    width: 16vw;
+    height: 20px;
+    margin-left: -20px;
+    width: 55px;
+    height: 55px;
+}
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+}
+/* About me  */
+.aboutme h1{
+    position: relative;
+    top:-200px;
+    left: 420px;
+}
+.aboutme-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.about-text p{
+    font-size: 20px;
+}
+.skills h3{
+    position: relative;
+    left:150px;
+}
+.skills img{
+    height: 250px;
+
+    position: relative;
+    top:10px;
+    left:120px;
+
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+/* .hamburger img{
+    position: absolute;
+    cursor: pointer;
+    top: -40px;
+    left: 20px;
+    height: 15px;
+    width: 10px;
+} */
+
+/* .sidebarGo{
+    transform: translate(-100px,0px);
+    position: absolute;
+
+} */
+
+
+/* Project */
+
+.prj{
+    position: absolute;
+    top: -10px;
+    top:20px;
+    left:700px;
+}
+.card img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20vh;
+    position: relative;
+    left:0px;
+    top:-20px;
+}
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.prj-btn1{
+    position: relative;
+    left:-7px;
+    text-decoration: none;
+}
+.card {
+    border: 2px solid rgb(240, 23, 23); /* You can change the color and size */
+    border-radius: 10px;      /* Rounded corners */
+    padding: 15px;            /* Space inside the card */
+    box-shadow: 0 4px 8px rgba(199, 33, 33, 0.71); /* Optional: adds depth
+/*  Optional: semi-transparent background */
+backdrop-filter: blur(10px); /* Optional: glassmorphism effect */
+border: 2px solid rgba(173, 216, 230, 0.7); /* Light blue border */
+border-radius: 15px;
+box-shadow: 0 0 20px rgba(100, 100, 255, 0.6);
+padding: 15px;
+border-color: aliceblue;
+border-width: 10px; 
+background-color: rgba(255, 255, 255, 0.215);
+width: 17rem;
+}
+.prj-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+
+
+/* .sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px; 
+    width: 250px;
+    height: 100%;
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    transition: left 0.3s ease;
+    z-index: 999;
+  }
+  
+  .sidebar.active {
+    left: 0; 
+  }
+   */
